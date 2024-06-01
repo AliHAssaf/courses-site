@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/google-fonts.css">
+    <link rel="stylesheet" href="css/mdb.css">
+    <link rel="stylesheet" href="css/boot.css">
+    <style>
+        .divider:after,
+        .divider:before {
+         content: "";
+         flex: 1;
+         height: 1px;
+         background: #eee;
+        }
+        #img{
+            opacity: 50%;
+        }
+    </style>
+
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-body" data-bs-theme="dark" style="background-image: linear-gradient(black,gray);">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-lg-5 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="site.html">HomePage</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="width: 100px !important;" href="contact-us.html" target="_blank">Contact-Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Courses
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="photoshop.html">Photoshop</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="illstrautor.html">Illstrator</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="indesign.html">Indesign</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex justify-content-center" role="search">
+              <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+          <div class="container-fluid w-50 ms-0 me-5">
+            <a class="navbar-brand float-end" href="site.html">
+              <img src="img/polygon.jpg" alt="Logo" width="45" height="35" class="d-inline-block align-text-top">
+              My First Website
+            </a>
+          </div>
+        </div>
+      </nav>
+      <section class="vh-100">
+        <div class="container py-5 h-100">
+          <div class="row d-flex align-items-center justify-content-center h-100">
+            <div class="col-md-8 col-lg-7 col-xl-6">
+              <img src="img/img.jpg" class="img-fluid mb-lg-5" alt="Phone image" id="img">
+            </div>
+            <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+              <form>
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="form1Example13" class="form-control form-control-lg" />
+                  <label class="form-label" for="form1Example13">Email address</label>
+                </div>
+      
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                  <input type="password" id="form1Example23" class="form-control form-control-lg" />
+                  <label class="form-label" for="form1Example23">Password</label>
+                </div>
+      
+                <div class="d-flex justify-content-around align-items-center mb-4">
+                  <!-- Checkbox -->
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
+                    <label class="form-check-label" for="form1Example3"> Remember me </label>
+                  </div>
+                  <a href="#!">Forgot password?</a>
+                </div>
+      
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-lg btn-block">login</button>
+      
+                <div class="divider d-flex align-items-center my-4">
+                  <p class="text-center fw-bold mx-3 mb-0 text-muted">OR:</p>
+                </div>
+      
+                <a class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998" href="#!"
+                  role="button">
+                  <i class="fab fa-facebook-f me-2"></i>Continue with Facebook
+                </a>
+                <a class="btn btn-primary btn-lg btn-block" style="background-color: #55acee" href="#!"
+                  role="button">
+                  <i class="fab fa-twitter me-2"></i>Continue with Twitter</a>
+
+                  <div class="text-center">
+                    <div class="divider d-flex align-items-center my-4">
+                      <p class="text-center fw-bold mx-3 mb-0 text-muted">OR:</p>
+                    </div>
+                    <a href="signup.html" target="_blank">
+                      <button type="button" class="btn btn-primary btn-lg btn-block">SIGNUP!</button>
+                    </a>
+                  </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script src="js/mdb.js"></script>
+      <script src="js/boot.js"></script>
+</body>
+</html>
